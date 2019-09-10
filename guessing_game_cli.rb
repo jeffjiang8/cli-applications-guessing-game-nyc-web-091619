@@ -4,7 +4,7 @@ def run_guessing_game
   user_guess = gets.chomp.strip
   if user_guess = computer_guess
     puts "You guessed the correct number!"
-  else 
+  elsif 
     puts "Sorry! The computer guessd <#{computer_guess}>."
   else user_guess = "exit"
     puts 'Goodbye!'
