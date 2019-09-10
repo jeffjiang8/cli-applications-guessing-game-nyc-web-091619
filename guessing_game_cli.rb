@@ -8,6 +8,6 @@ def run_guessing_game
   elsif user_guess == "exit"
     puts "Goodbye!"
   else 
-    puts "Sorry! The computer guessd #{computer_guess}."
+    puts "/Sorry! The computer guessd #{computer_guess}./"
   end 
 end 
